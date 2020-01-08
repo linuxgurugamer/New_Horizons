@@ -1,0 +1,7 @@
+In addition to my config, there are a few revisions that I think should be made to the original planet configs.  First, the problem with the gas molar mass should be fixed.  I recommend making the following edit to Moh, Sonnah, and Vanor:
+
+			atmosphereMolarMass = 0.0022
+I also noticed the Kerbin has a custom sphereOfInfluence.  I assume this is necessary because Kerbin is reparented.  The value provided is a little low.  I computed what the actual SOI should be, so I recommended changing it to the following:
+
+			sphereOfInfluence = 8838220
+ 
