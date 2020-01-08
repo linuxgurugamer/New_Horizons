@@ -59,6 +59,8 @@ Vanilla Bodies Texture Overhauls
 	
 Community Resource Pack Compatibility
 - Adds support for custom resources for mods such as the USI catalogue, Extra-Planetary Launchpads & many more.
+<<<<<<< HEAD
+=======
 
 
 ## Installation
@@ -84,3 +86,4 @@ In your KSP GameData folder, delete any existing `New_Horizons` folder. Download
 	+ [GitHub](https://github.com/GregroxMun/New_Horizons)
 * [LinuxGuruGamer](https://github.com/linuxgurugamer) Parallel Fork
 	+ [GitHub](https://github.com/linuxgurugamer/New_Horizons)
+>>>>>>> ad628a551ee395ecc31a279040ce2eb88c82005e
