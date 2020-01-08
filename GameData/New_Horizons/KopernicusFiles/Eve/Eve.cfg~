@@ -1,5 +1,12 @@
 ﻿@Kopernicus:FOR[NewHorizons]
 {
+<<<<<<< HEAD
+	@Body[Eve]
+	{
+		@Orbit
+		{
+			@referenceBody = Sun
+=======
 	@Body[Eve]:NEEDS[!InterstellarConsortium]
     {
         @identifier = NH/Eve
@@ -14,6 +21,7 @@
         @Orbit
         {
             @referenceBody = NH/Sun
+>>>>>>> c49bdadd234f9b928915fdb3714b2c1d0ee006a8
 			semiMajorAxis = 10621448800
 			inclination = 13.57
 			eccentricity = 0.012
