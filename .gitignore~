@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.db
 *.zip
 =======
@@ -5,3 +6,4 @@ GameData/**/*.version
 GameData/**/README.md
 GameData/**/CHANGE_LOG.md
 GameData/**/LICENSE
+>>>>>>> ad628a551ee395ecc31a279040ce2eb88c82005e

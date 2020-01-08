@@ -1,0 +1,42 @@
+﻿@Kopernicus:FOR[NewHorizons]
+{
+<<<<<<< HEAD
+	removeLaunchSites = Desert_Launch_Site, Desert_Airfield, Desert_GroundObjects, Woomerang_GroundObjects, Woomerang_Launch_Site
+	@Body[Kerbin]:NEEDS[!InterstellarConsortium]
+    {
+        @identifier = NH/Kerbin
+    }
+    +Body[Kerbin]:NEEDS[InterstellarConsortium]
+    {
+        @identifier = NH/Kerbin
+		@name = NH_Kerbin
+    }
+	@Body:HAS[#identifier[NH/Kerbin]]
+=======
+	@Body[Kerbin]
+	removeLaunchSites = Desert_Launch_Site, Desert_Airfield, Desert_GroundObjects, Woomerang_GroundObjects, Woomerang_Launch_Site
+>>>>>>> ad628a551ee395ecc31a279040ce2eb88c82005e
+    {
+        @Properties
+        {
+			sphereOfInfluence = 6000000
+			initialRotation = 55
+			rotationPeriod = 21549.4251830898
+			solarRotationPeriod = false
+        }
+        @Orbit
+        {
+			@referenceBody = NH/Sun
+			semiMajorAxis = 5.4302e+7
+			inclination = 0
+            eccentricity = 0
+			longitudeOfAscendingNode = 0
+            meanAnomalyAtEpoch = 0
+            epoch = 0
+        }
+        PostSpawnOrbit
+        {
+            referenceBody = NH/Sonnah
+        }
+	}
+}
