@@ -1,1 +1,4 @@
-*.db
+GameData/**/*.version
+GameData/**/README.md
+GameData/**/CHANGE_LOG.md
+GameData/**/LICENSE

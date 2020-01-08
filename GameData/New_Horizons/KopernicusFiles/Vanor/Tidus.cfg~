@@ -266,6 +266,16 @@
 						octaves = 4
 						persistance = 0.5
 						frequency = 0.5
+<<<<<<< HEAD
+						//Noise
+						//{
+						//	frequency = 0.5
+						//	lacunarity = 0.5
+						//	quality = High
+						//	octaveCount = 4
+						//	seed = 33127
+						//}
+=======
 //						Noise
 //						{
 //							frequency = 0.5
@@ -274,6 +284,7 @@
 //							octaveCount = 4
 //							seed = 33127
 //						}
+>>>>>>> ad628a551ee395ecc31a279040ce2eb88c82005e
 					}
 					TerrainTypeSimplex
 					{
