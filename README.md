@@ -8,8 +8,9 @@ Contributors:
 - Dunrana		(SciDefs)
 - Felger		(atmosphere settings)
 - Tynrael		(advice & more)
-- MinimumSky5	(SciDefs)
+- MinimumSky5		(SciDefs)
 - Sigma88		(advice and support)
+- GregroxMun		(IC support)
 
 
 About
